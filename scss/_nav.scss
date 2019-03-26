@@ -1,0 +1,33 @@
+
+
+
+.nav {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+
+  a {
+    color: #fff;
+
+    &:hover {
+      color: #52c0ce; 
+    }
+  }
+
+  &__link-row {
+    list-style: none;
+
+    .nav__link-row {
+      display: none;
+    }
+  }
+
+}
+
+@media screen and (min-width: $medium-up) {
+  .nav {
+    &__link-row {
+      display: inline-block;
+      padding: 0 .75rem;
+    }
+  }
+}
