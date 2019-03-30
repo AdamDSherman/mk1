@@ -2,11 +2,18 @@
 
 
 .nav {
+  background-color: $black;
+  font-size: 1.5rem;
+  left: 0;
   padding-top: 2rem;
   padding-bottom: 1rem;
+  position: absolute;
+  top: -4px;
+  width: 100%;
+  z-index: 999;
 
   a {
-    color: #fff;
+    color: $light;
 
     &:hover {
       color: #52c0ce; 
@@ -15,6 +22,7 @@
 
   &__link-row {
     list-style: none;
+    padding: 0 1rem;
 
     .nav__link-row {
       display: none;
@@ -25,6 +33,12 @@
 
 @media screen and (min-width: $medium-up) {
   .nav {
+    background-color: transparent;
+    font-size: 1rem;
+    padding-top: 20px;
+    padding-bottom: 0;
+    position: relative;
+ 
     &__link-row {
       display: inline-block;
       padding: 0 .75rem;

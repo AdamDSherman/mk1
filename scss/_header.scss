@@ -1,0 +1,22 @@
+
+.header {
+  background-color: #282828;
+  color: $light;
+  height: 65px; 
+
+    &__hamburger {
+    cursor: pointer;
+    font-size: 2rem;
+  }
+}
+
+.logo {
+  &__link {
+    color: $light;
+
+    &:hover {
+      color: $light;
+      text-decoration: none;
+    }
+  }
+}

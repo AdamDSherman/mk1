@@ -36,19 +36,12 @@ body {
   text-align: center;
   margin: 2rem 0 2rem; }
 
-.header {
-  background-color: #282828;
-  color: #fff;
-  height: 65px; }
 
-.logo__link {
-  color: #fff; }
-  .logo__link:hover {
-    color: #fff;
-    text-decoration: none; }
 
 
 @import 'general-settings';
+@import 'colours';
+@import 'header';
 @import 'nav';
 
 

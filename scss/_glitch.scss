@@ -6,9 +6,11 @@
   color: #fff;
   width: 100%;
   text-align: center;
-  animation: flicker3 2s; }
+ //animation: flicker3 2s; 
+}
   .glitch:hover {
-    animation: flicker3 2s infinite; }
+    //animation: flicker3 2s infinite;
+  }
 
 .glitch::before,
 .glitch::after {
@@ -21,42 +23,44 @@
 
 .glitch::before {
   text-shadow: 2px 2px 0px rgba(120, 219, 255, 0.5);
-  animation: flicker2 1s; }
+  //animation: flicker2 1s;
+}
 
 .glitch::after {
   text-shadow: -2px -2px 0px rgba(255, 122, 122, 0.5);
-  animation: flicker1 2s; }
+  //animation: flicker1 2s; 
+}
 
-@keyframes flicker1 {
-  0% {
-    text-shadow: -2px -2px 0px rgba(255, 122, 122, 0.7); }
-  25% {
-    text-shadow: 0px -2px 0px rgba(255, 122, 122, 0.5); }
-  75% {
-    text-shadow: -2px -2px 0px rgba(255, 122, 122, 0.7); }
-  80% {
-    text-shadow: -5px -3px 3px rgba(255, 122, 122, 0.5); }
-  100% {
-    text-shadow: 0px 1px 0px rgba(255, 122, 122, 0.7); } }
+// @keyframes flicker1 {
+//   0% {
+//     text-shadow: -2px -2px 0px rgba(255, 122, 122, 0.7); }
+//   25% {
+//     text-shadow: 0px -2px 0px rgba(255, 122, 122, 0.5); }
+//   75% {
+//     text-shadow: -2px -2px 0px rgba(255, 122, 122, 0.7); }
+//   80% {
+//     text-shadow: -5px -3px 3px rgba(255, 122, 122, 0.5); }
+//   100% {
+//     text-shadow: 0px 1px 0px rgba(255, 122, 122, 0.7); } }
 
-@keyframes flicker2 {
-  0% {
-    text-shadow: 2px 2px 0px rgba(120, 219, 255, 0.7); }
-  25% {
-    text-shadow: 1px 1px 0px rgba(120, 219, 255, 0.7); }
-  75% {
-    text-shadow: 2px 2px 0px rgba(120, 219, 255, 0.5); }
-  80% {
-    text-shadow: 3px 3px 3px rgba(120, 219, 255, 0.7); }
-  100% {
-    text-shadow: 1px 1px 0px rgba(120, 219, 255, 0.5); } }
+// @keyframes flicker2 {
+//   0% {
+//     text-shadow: 2px 2px 0px rgba(120, 219, 255, 0.7); }
+//   25% {
+//     text-shadow: 1px 1px 0px rgba(120, 219, 255, 0.7); }
+//   75% {
+//     text-shadow: 2px 2px 0px rgba(120, 219, 255, 0.5); }
+//   80% {
+//     text-shadow: 3px 3px 3px rgba(120, 219, 255, 0.7); }
+//   100% {
+//     text-shadow: 1px 1px 0px rgba(120, 219, 255, 0.5); } }
 
-@keyframes flicker3 {
-  25% {
-    left: -2px; }
-  26% {
-    left: auto; }
-  27% {
-    left: 2px; }
-  28% {
-    left: auto; } }
+// @keyframes flicker3 {
+//   25% {
+//     left: -2px; }
+//   26% {
+//     left: auto; }
+//   27% {
+//     left: 2px; }
+//   28% {
+//     left: auto; } }
