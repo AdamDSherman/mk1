@@ -13,6 +13,7 @@
 .logo {
   &__link {
     color: $light;
+    font-family: $logo-font;
 
     &:hover {
       color: $light;
